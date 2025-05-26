@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="imagens/logo.png" alt="Logo ClimaRede" width="180"/>
+  <img src="ClimaRede/src/Imagens/logo.png" alt="Logo ClimaRede" width="180"/>
 </p>
 
 # 🌱 ClimaRede
