@@ -1,0 +1,22 @@
+
+# Ignorar binários e builds
+/bin/
+/target/
+/*.class
+
+# Ignorar configurações locais
+*.iml
+*.log
+.idea/
+*.ipr
+*.iws
+*.bak
+
+# Ignorar arquivos do Eclipse
+*.classpath
+*.project
+.settings/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
