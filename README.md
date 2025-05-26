@@ -33,7 +33,7 @@ ClimaRede/
   │ │ ├── login/  
   │ │ ├── network/  
   │ │ └── view/  
-  │ │ └── imagens/ 
+  │ │ └── imagens/  
   ├── .gitignore  
   └── pom.xml  
 
