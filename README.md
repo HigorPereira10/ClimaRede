@@ -23,6 +23,15 @@ ClimaRede é uma aplicação Java desenvolvida como parte de um trabalho semestr
 - WeatherAPI (https://www.weatherapi.com/)
 - Maven
 
+## Pré-requisitos
+
+Para rodar o projeto, é necessário:
+
+- Java 17 ou superior
+- Maven instalado e configurado no sistema (https://maven.apache.org/)
+- Banco de dados MySQL (opcional, apenas se for usar o sistema de login)
+
+
 ## 🧩 Estrutura do Projeto
 
 ClimaRede/  
