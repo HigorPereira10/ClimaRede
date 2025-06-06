@@ -31,18 +31,31 @@ Para rodar o projeto, é necessário:
 - Maven instalado e configurado no sistema (https://maven.apache.org/)
 - Banco de dados MySQL (opcional, apenas se for usar o sistema de login)
 
+## 🧩 Banco de Dados
+
+O projeto utiliza MySQL para gerenciar os usuários da aplicação.  
+Para configurar corretamente:
+
+1. Certifique-se de que o MySQL está instalado e em execução.
+2. Execute o script `database/criar_tabelas.sql` no seu MySQL (pode usar o MySQL Workbench, DBeaver, ou terminal).
+3. Verifique se as credenciais estão corretas no arquivo `MySqlConnection.java`.
+
+💡 O script cria o banco `climarede` e a tabela `usuarios`.
+
+
 
 ## 🧩 Estrutura do Projeto
 
 ClimaRede/  
   ├── src/  
   │ ├── com.climarede/   
-  │ │ ├── Main.java  
-  │ │ ├── controller/  
-  │ │ ├── login/  
-  │ │ ├── network/  
-  │ │ └── view/  
-  │ │ └── imagens/  
+  │   │ ├── Main.java  
+  │   │ ├── controller/  
+  │   │ ├── database/
+  |   | ├── login/  
+  │   │ ├── network/  
+  │   │ └── view/  
+  │ ├── imagens/  
   ├── .gitignore  
   └── pom.xml  
 
