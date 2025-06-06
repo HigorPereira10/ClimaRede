@@ -8,3 +8,4 @@ CREATE TABLE usuarios (
     login VARCHAR(100) UNIQUE,
     senha VARCHAR(255)
 );
+
