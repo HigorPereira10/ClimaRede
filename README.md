@@ -47,17 +47,17 @@ Para configurar corretamente:
 ## 🧩 Estrutura do Projeto
 
 ClimaRede/  
-  ├── src/  
-  │ ├── com.climarede/   
-  │   │ ├── Main.java  
-  │   │ ├── controller/  
-  │   │ ├── database/ 
-  |   | ├── login/  
-  │   │ ├── network/  
-  │   │ └── view/  
-  │ ├── imagens/  
-  ├── .gitignore  
-  └── pom.xml  
+├── src/  
+│   ├── com.climarede/  
+│   │   ├── Main.java  
+│   │   ├── controller/  
+│   │   ├── database/  
+│   │   ├── login/  
+│   │   ├── network/  
+│   │   └── view/  
+│   ├── imagens/  
+├── .gitignore  
+└── pom.xml
 
 
 ## 🖼️ Interface do sistema
